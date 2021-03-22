@@ -1,0 +1,13 @@
+name = "MTMaths"
+uuid = "a4db2cae-1a90-42db-adf8-36960c270593"
+authors = ["0x0f0f0f <sudo-woodo3@protonmail.com>"]
+version = "0.1.0"
+
+[deps]
+Metatheory = "e9d8d322-4543-424a-9be4-0cc815abe26c"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
